@@ -1,0 +1,12 @@
+January,1.00
+February,3.00
+March,4.00
+April,5.00
+May,5.00
+June,5.00
+July,6.00
+August,66.00
+September,5.00
+October,5.00
+November,4.00
+December,4.00

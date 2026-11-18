@@ -1,0 +1,21 @@
+
+import datetime
+
+def main():
+    date = input("Enter a date (mm/dd/yyyy): ")
+
+    try:
+        date_object = datetime.datetime.strptime(date, "%m/%d/%Y")
+
+        month_name = date_object.strftime("%B")
+        day = date_object.day
+        year = date_object.year
+
+        print(f"{month_name} {day}, {year}")
+
+    except ValueError:
+        print("Error: Invalid date. Please enter a valid date in mm/dd/yyyy format.")
+
+
+if __name__ == "__main__":
+    main()
